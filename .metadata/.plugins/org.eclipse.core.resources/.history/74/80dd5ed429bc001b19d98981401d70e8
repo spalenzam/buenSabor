@@ -1,0 +1,5 @@
+package com.buenSabor.entity;
+
+public class Pedido {
+
+}

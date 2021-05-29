@@ -1,0 +1,32 @@
+package com.buenSabor.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="pedidos")
+public class Pedido {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//Autoincremental
+	private Long id;
+	
+	@Column(name= "numero_pedido")
+	private int numeroPedido;
+	@Column(name= "fecha_pedido")
+	private Date fechaPedido;
+	@Column(name= "hora_estimada_fin_pedido")
+	private Date horaEstimadaFinPedido; //esto tmb es date?
+	@Column(name= "tipo_envio_pedido")
+	private String tipoEnvioPedido;
+
+
+
+
+}

@@ -1,0 +1,11 @@
+spring.application.name=microservicio-gateway
+server.port=8090
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+spring.cloud.gateway.routes[0].id=buen-sabor
+spring.cloud.gateway.routes[0].uri=lb://buen-sabor
+spring.cloud.gateway.routes[0].predicates=Path=/api/alumnos/**
+spring.cloud.gateway.routes[0].filters=StripPrefix=2
+#este último es la cantidad de prefijos que se tienen que borrar cuando se 
+#hace la llamada, en este casi son dos api y alumnos, x eso se pone 2

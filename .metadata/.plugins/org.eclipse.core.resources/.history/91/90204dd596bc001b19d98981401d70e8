@@ -1,0 +1,5 @@
+package com.buenSabor.services;
+
+public interface PedidoService {
+
+}
