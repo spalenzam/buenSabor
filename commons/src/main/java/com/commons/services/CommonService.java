@@ -11,5 +11,7 @@ public interface CommonService<E> {
 	
 	public E save(E entity);
 	
+	//public E update(Long id, E entity);
+	
 	public void deleteById(Long id);
 }
