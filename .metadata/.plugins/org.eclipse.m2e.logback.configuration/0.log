@@ -3411,3 +3411,34 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-05-29 20:18:43,145 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-05-29 20:18:43,147 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-05-29 20:18:43,148 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\zuul\src\test\resources
+2021-05-29 20:21:10,540 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-29 20:23:12,266 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-29 20:23:12,273 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-29 20:23:12,293 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-29 20:23:12,297 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-29 20:23:12,297 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\zuul\src\test\resources
+2021-05-29 20:24:12,888 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-29 20:24:12,893 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-29 20:24:12,898 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-29 20:24:12,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-29 20:24:12,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\zuul\src\test\resources
+2021-05-30 10:59:23,832 [Worker-72: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.commons:commons:0.0.1-SNAPSHOT @ D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\commons\pom.xml.
+2021-05-30 10:59:27,484 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/main/java
+2021-05-30 10:59:27,484 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2021-05-30 10:59:27,544 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2021-05-30 10:59:27,568 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/test/java
+2021-05-30 10:59:29,380 [Worker-72: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2021-05-30 10:59:29,390 [Worker-72: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-30 10:59:31,729 [Worker-72: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.commons:commons:0.0.1-SNAPSHOT @ D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\commons\pom.xml.
+2021-05-30 10:59:33,200 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/main/java
+2021-05-30 10:59:33,201 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2021-05-30 10:59:33,204 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /commons/src/main/resources
+2021-05-30 10:59:33,208 [Worker-72: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /commons/src/test/java
+2021-05-30 10:59:33,809 [Worker-72: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2021-05-30 10:59:35,100 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-30 10:59:35,100 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-30 10:59:35,102 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-30 10:59:35,122 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-30 10:59:35,125 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-30 10:59:35,125 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-30 10:59:35,125 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\commons\src\test\resources
