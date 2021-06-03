@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.buenSabor.entity.Pedido;
@@ -14,6 +15,7 @@ import com.buenSabor.services.PedidoService;
 import com.commons.controllers.CommonController;
 
 @RestController
+@RequestMapping(path="api/buensabor/pedidos")
 public class PedidoController extends CommonController<Pedido, PedidoService>{
 		
 	@PutMapping("/{id}")
