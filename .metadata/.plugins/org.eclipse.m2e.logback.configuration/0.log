@@ -3778,3 +3778,265 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-06-01 21:49:53,305 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-06-01 21:49:53,305 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-06-01 21:49:53,305 [Worker-237: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 08:25:56,189 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 08:25:56,199 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 08:25:56,200 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 08:25:56,370 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 08:25:56,370 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 08:25:56,372 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 08:25:56,372 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 08:25:56,372 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 08:27:38,820 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 08:27:38,820 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 08:27:38,820 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 08:27:38,834 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 08:27:38,835 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 08:27:38,841 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 08:27:38,841 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 08:27:38,841 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 08:58:56,974 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 08:58:56,974 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 08:58:56,989 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 08:58:57,027 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 08:58:57,027 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 08:58:57,031 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 08:58:57,031 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 08:58:57,031 [Worker-260: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 08:59:30,082 [Worker-265: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 08:59:30,627 [Worker-265: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 08:59:31,361 [Worker-265: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:08:52,887 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:08:52,890 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:08:52,891 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 09:08:52,993 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 09:08:52,994 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 09:08:52,996 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:08:52,996 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:08:52,996 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 09:12:45,441 [Worker-263: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:12:45,912 [Worker-263: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:12:46,391 [Worker-263: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:14:08,435 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:14:08,436 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:14:08,436 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 09:14:08,481 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 09:14:08,481 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 09:14:08,496 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:14:08,496 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:14:08,496 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 09:14:21,451 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:14:21,452 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:14:21,452 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 09:14:21,458 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 09:14:21,459 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 09:14:21,461 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:14:21,461 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:14:21,461 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 09:16:37,899 [Worker-272: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:16:38,415 [Worker-272: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:16:38,778 [Worker-272: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:20:23,791 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:20:23,792 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:20:23,792 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 09:20:23,802 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 09:20:23,803 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 09:20:23,804 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:20:23,804 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:20:23,804 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 09:20:36,864 [Worker-270: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:20:37,377 [Worker-270: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:20:37,829 [Worker-270: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 09:21:28,676 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:21:28,676 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:21:28,677 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 09:21:28,684 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 09:21:28,684 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 09:21:28,716 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 09:21:28,718 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 09:21:28,718 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:04:10,025 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:10,026 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:10,027 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:04:10,316 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:04:10,316 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:04:10,318 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:10,319 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:10,319 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:04:25,922 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:25,922 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:25,922 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:04:25,943 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:04:25,943 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:04:25,945 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:25,946 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:25,946 [Worker-278: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:04:34,224 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:34,224 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:34,225 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:04:34,235 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:04:34,235 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:04:34,237 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:34,237 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:34,237 [Worker-279: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:04:39,655 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:39,655 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:39,655 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:04:39,664 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:04:39,664 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:04:39,666 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:04:39,666 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:04:39,666 [Worker-270: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:07:53,757 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:07:53,757 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:07:53,758 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:07:53,767 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:07:53,767 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:07:53,769 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:07:53,769 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:07:53,769 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:20:02,945 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:20:02,945 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:20:02,952 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:20:02,976 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:20:02,976 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:20:02,978 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:20:02,978 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:20:02,978 [Worker-288: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:21:28,798 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:21:28,798 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:21:28,799 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:21:28,826 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:21:28,826 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:21:28,827 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:21:28,828 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:21:28,828 [Worker-289: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:21:47,156 [Worker-290: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:21:47,650 [Worker-290: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:21:48,120 [Worker-290: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:24:13,269 [Worker-290: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.buenSabor:BuenSabor:0.0.1-SNAPSHOT @ D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\pom.xml.
+2021-06-03 10:24:13,877 [Worker-290: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier  to /commons/target/classes
+2021-06-03 10:24:15,063 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:24:15,063 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:24:15,067 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:24:15,067 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:24:15,071 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:24:15,071 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:24:15,071 [Worker-290: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:24:17,911 [Worker-275: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier  to /commons/target/classes
+2021-06-03 10:24:17,970 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:24:17,970 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:24:17,971 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:24:17,993 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:24:17,994 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:24:17,995 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:24:17,995 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:24:17,995 [Worker-275: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:24:38,931 [Worker-290: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-06-03 10:24:39,484 [Worker-290: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.buenSabor:BuenSabor:0.0.1-SNAPSHOT @ D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\pom.xml.
+2021-06-03 10:24:39,860 [Worker-290: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier  to /commons/target/classes
+2021-06-03 10:24:40,426 [Worker-290: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BuenSabor/src/main/java
+2021-06-03 10:24:40,426 [Worker-290: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BuenSabor/src/main/resources
+2021-06-03 10:24:40,426 [Worker-290: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BuenSabor/src/main/resources
+2021-06-03 10:24:40,427 [Worker-290: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BuenSabor/src/test/java
+2021-06-03 10:24:41,679 [Worker-290: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-06-03 10:24:44,416 [Worker-285: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier  to /commons/target/classes
+2021-06-03 10:24:44,486 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:24:44,486 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:24:44,486 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:24:44,511 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:24:44,511 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:24:44,514 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:24:44,514 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:24:44,514 [Worker-285: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:24:53,433 [Worker-286: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:24:53,640 [Worker-286: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:24:53,800 [Worker-286: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:25:06,871 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:25:06,871 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:25:06,873 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:25:06,969 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:25:06,970 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:25:06,971 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:25:06,972 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:25:06,972 [Worker-293: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:25:52,592 [Worker-275: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:25:52,771 [Worker-275: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:25:52,963 [Worker-275: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:27:17,162 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:27:17,162 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:27:17,163 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:27:17,177 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:27:17,177 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:27:17,179 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:27:17,179 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:27:17,179 [Worker-287: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:28:39,710 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:28:39,710 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:28:39,711 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:28:39,855 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:28:39,856 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:28:39,857 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:28:39,857 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:28:39,857 [Worker-296: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:28:42,024 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:28:42,025 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:28:42,025 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 10:28:42,153 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 10:28:42,153 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 10:28:42,155 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 10:28:42,155 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 10:28:42,155 [Worker-297: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 10:28:45,692 [Worker-275: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:28:45,875 [Worker-275: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 10:28:46,101 [Worker-275: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 22:03:44,947 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 22:03:44,996 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 22:03:45,002 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 22:03:45,665 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 22:03:45,665 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 22:03:45,671 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 22:03:45,671 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 22:03:45,671 [Worker-304: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 22:04:54,223 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 22:04:54,223 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 22:04:54,224 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 22:04:54,261 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 22:04:54,261 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 22:04:54,293 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 22:04:54,293 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 22:04:54,293 [Worker-305: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 22:08:57,587 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 22:08:57,587 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 22:08:57,587 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-03 22:08:57,593 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-03 22:08:57,593 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-03 22:08:57,597 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-03 22:08:57,597 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-03 22:08:57,597 [Worker-309: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-03 22:09:53,600 [Worker-311: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 22:09:53,800 [Worker-311: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-03 22:09:54,240 [Worker-311: Launching BuenSabor - BuenSaborApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/commons: com.commons:commons:0.0.1-SNAPSHOT with classifier null to /commons/target/classes
+2021-06-04 08:55:03,300 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-04 08:55:03,317 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-04 08:55:03,334 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-04 08:55:03,435 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-04 08:55:03,435 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-04 08:55:03,437 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-04 08:55:03,437 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-04 08:55:03,437 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-04 08:55:24,357 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-04 08:55:24,357 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-04 08:55:24,357 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-04 08:55:24,449 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-04 08:55:24,449 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-04 08:55:24,456 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-04 08:55:24,456 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-04 08:55:24,456 [Worker-317: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
+2021-06-04 09:17:05,692 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-04 09:17:05,791 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-04 09:17:05,859 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-04 09:17:06,746 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-04 09:17:06,760 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2021-06-04 09:17:07,119 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-04 09:17:07,125 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-06-04 09:17:07,129 [Worker-322: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Documentos\UTN - Programación\4° Semestre\Laboratorio IV\Delivery\BuenSabor\src\test\resources
