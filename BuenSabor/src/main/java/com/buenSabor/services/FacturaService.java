@@ -7,5 +7,5 @@ import com.commons.services.CommonService;
 
 public interface FacturaService extends CommonService<Factura> {
 
-	public List<Factura> findByNumeroFactura(Integer numFactura);
+	public Factura findByNumeroFactura(Integer numFactura);
 }

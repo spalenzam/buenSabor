@@ -14,7 +14,7 @@ public class FacturaServiceImpl extends CommonServiceImpl<Factura, FacturaReposi
 
 	@Override
 	@Transactional(readOnly = true)
-	public List<Factura> findByNumeroFactura(Integer numFactura) {
+	public Factura findByNumeroFactura(Integer numFactura) {
 		return repository.findByNumeroFactura(numFactura);
 	}
 
