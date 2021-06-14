@@ -1,9 +1,0 @@
-package com.buenSabor.services;
-
-import com.buenSabor.entity.Pedido;
-
-public interface PedidoService {
-	
-	public Iterable<Pedido> findAll();
-	public Optional<Pedido>
-}

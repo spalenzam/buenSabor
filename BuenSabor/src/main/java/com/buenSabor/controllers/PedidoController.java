@@ -30,8 +30,7 @@ public class PedidoController extends CommonController<Pedido, PedidoService>{
 		pedidoDB.setNumeroPedido(pedido.getNumeroPedido()); //ESTAS DOS COSAS SE PUEDEN MODIFICAR?
 		pedidoDB.setTipoEnvioPedido(pedido.getTipoEnvioPedido());
 		
-		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(pedidoDB));
-		
+		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(pedidoDB));		
 	}
 
 }

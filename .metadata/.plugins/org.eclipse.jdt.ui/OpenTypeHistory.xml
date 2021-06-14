@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=BuenSabor/C:\/Users\/Macarena\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.4.2\/spring-data-commons-2.4.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.4.2=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1607948126225"/>
-    <typeInfo handle="=BuenSabor/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.buenSabor.services{PedidoService.java[PedidoService" modifiers="513" timestamp="1621975834032"/>
+    <typeInfo handle="=BuenSabor/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.buenSabor.services{PedidoService.java[PedidoService" modifiers="513" timestamp="1622384627901"/>
+    <typeInfo handle="=BuenSabor/C:\/Users\/Macarena\/.m2\/repository\/jakarta\/persistence\/jakarta.persistence-api\/2.2.3\/jakarta.persistence-api-2.2.3.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/jakarta.persistence=/=/maven.artifactId=/jakarta.persistence-api=/=/maven.version=/2.2.3=/=/maven.scope=/compile=/&lt;javax.persistence.criteria(CommonAbstractCriteria.class[CommonAbstractCriteria" modifiers="1537" timestamp="1600038561768"/>
+    <typeInfo handle="=commons/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.commons.services{CommonService.java[CommonService" modifiers="513" timestamp="1622389083367"/>
+    <typeInfo handle="=commons/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.commons.services{CommonServiceImpl.java[CommonServiceImpl" modifiers="1" timestamp="1622384797954"/>
+    <typeInfo handle="=BuenSabor/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.buenSabor.services{FacturaService.java[FacturaService" modifiers="513" timestamp="1622726402630"/>
 </typeInfoHistroy>
