@@ -3,10 +3,17 @@ package com.buenSabor.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import javax.persistence.Id;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 
-
+@Entity
 @Table(name="configuracion")
 public class Configuracion {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 	
 	@Column(name = "cantidad_cocineros")
 	private int cantidadCocineros;
