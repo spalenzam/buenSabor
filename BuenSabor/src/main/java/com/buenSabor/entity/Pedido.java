@@ -37,6 +37,10 @@ public class Pedido {
 	@JoinColumn(name = "fk_mercado_pago_datos")
 	private MercadoPagoDatos mercadoPagoDatos;
 	
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "domicilio")
+	private Domicilio domicilio;
+	
 	@Column(name="created_at") //
 	@Temporal(TemporalType.TIMESTAMP) //se guarda la fecha y la hora
 	private Date createdAt;
