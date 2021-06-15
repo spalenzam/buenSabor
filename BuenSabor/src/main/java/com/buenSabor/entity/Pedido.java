@@ -10,6 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
@@ -40,6 +41,10 @@ public class Pedido {
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "domicilio")
 	private Domicilio domicilio;
+	
+	@ManyToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "fk_cliente")
+	private Cliente cliente;
 	
 	@Column(name="created_at") //
 	@Temporal(TemporalType.TIMESTAMP) //se guarda la fecha y la hora

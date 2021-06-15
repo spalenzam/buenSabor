@@ -1,10 +1,13 @@
 package com.buenSabor.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -20,6 +23,10 @@ public class ArticuloManufacturadoDetalle {
 	
 	@Column(name = "unidad_medida")
 	private String unidadMedida;
+	
+	@ManyToOne(cascade = CascadeType.PERSIST)
+	@JoinColumn(name = "fk_articulo_insumo")
+	private ArticuloInsumo articuloinsumo;
 
 	public Long getId() {
 		return id;
