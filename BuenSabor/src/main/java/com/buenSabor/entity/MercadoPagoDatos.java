@@ -13,7 +13,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="Mercado-pago-datos")
+@Table(name="mercado_pago_datos")
 public class MercadoPagoDatos {
 	
 	@Id

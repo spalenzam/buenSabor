@@ -4,8 +4,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-@Entity
-@Table(name = "configuracion")
+
+@Table(name="configuracion")
 public class Configuracion {
 	
 	@Column(name = "cantidad_cocineros")

@@ -3,11 +3,14 @@ package com.buenSabor.entity;
 import java.sql.Time;
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -29,6 +32,10 @@ public class Pedido {
 	private Time horaEstimadaFinPedido;         //REVISAR ESTO O LOCALTIME
 	@Column(name= "tipo_envio_pedido")
 	private String tipoEnvioPedido;
+	
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "fk_mercado_pago_datos")
+	private MercadoPagoDatos mercadoPagoDatos;
 	
 	@Column(name="created_at") //
 	@Temporal(TemporalType.TIMESTAMP) //se guarda la fecha y la hora
