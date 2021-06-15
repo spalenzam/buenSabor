@@ -1,10 +1,13 @@
 package com.buenSabor.entity;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -25,6 +28,10 @@ public class Usuario {
 	private String rol;
 
 	//NO SE SI HACE FALTA QUE SE GUARDE LA FECHA Y HORA DE CREACIÓN DEL USUARIO
+	
+	@OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "fk_cliente")
+	private Cliente cliente;
 	
 	public Long getId() {
 		return id;
