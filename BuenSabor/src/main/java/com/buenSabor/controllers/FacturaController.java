@@ -2,8 +2,11 @@ package com.buenSabor.controllers;
 
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -20,7 +23,12 @@ import com.commons.controllers.CommonController;
 public class FacturaController extends CommonController<Factura, FacturaService>{
 
 	@PutMapping("/{id}")
-	public ResponseEntity<?> editar(@RequestBody Factura factura, @PathVariable Long id){
+	public ResponseEntity<?> editar(@Valid @RequestBody Factura factura, BindingResult result, @PathVariable Long id){
+		
+		if(result.hasErrors()) {
+			return this.validar(result);
+		}	
+		
 		Optional <Factura> o = this.service.findById(id);
 		if(!o.isPresent()) {
 			return ResponseEntity.notFound().build();

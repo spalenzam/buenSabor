@@ -20,7 +20,9 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -32,15 +34,14 @@ public class Pedido {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//Autoincremental
 	private Long id;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name= "numero_pedido")
 	private int numeroPedido;
-	
-	@NotEmpty
+
 	@Column(name= "fecha_pedido")
 	private Date fechaPedido;
-	
-	@NotEmpty
+
 	@Column(name= "hora_estimada_fin_pedido")
 	private Time horaEstimadaFinPedido;         //REVISAR ESTO O LOCALTIME
 	

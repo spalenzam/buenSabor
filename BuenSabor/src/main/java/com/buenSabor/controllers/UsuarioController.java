@@ -2,8 +2,11 @@ package com.buenSabor.controllers;
 
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,7 +22,12 @@ import com.commons.controllers.CommonController;
 public class UsuarioController extends CommonController<Usuario, UsuarioService> {
 
 	@PutMapping("/{id}")
-	public ResponseEntity<?> editar (@RequestBody Usuario usuario, @PathVariable Long id){
+	public ResponseEntity<?> editar (@Valid @RequestBody Usuario usuario, BindingResult result, @PathVariable Long id){
+		
+		if(result.hasErrors()) {
+			return this.validar(result);
+		}			
+		
 		Optional<Usuario> o = service.findById(id);
 		if(o.isEmpty()) {
 			return ResponseEntity.notFound().build();
