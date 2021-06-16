@@ -1,15 +1,20 @@
 package com.buenSabor.entity;
 
+import java.util.List;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotEmpty;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name = "rubro_articulo")
@@ -23,9 +28,13 @@ public class RubroArticulo {
 	@Column(name = "denominacion")
 	private String denominacion;
 	
-	@ManyToOne(cascade = CascadeType.PERSIST)
-	@JoinColumn(name = "fk_rubro_articulo")
-	private RubroArticulo rubroarticulo;
+	@JsonIgnoreProperties(value= {"rubroarticuloHijos"})
+	@ManyToOne(cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+	private RubroArticulo rubroarticuloPadre;
+	
+	@JsonIgnoreProperties(value= {"rubroarticuloPadre"})
+	@OneToMany(fetch = FetchType.LAZY, mappedBy ="rubroarticuloPadre", cascade = CascadeType.ALL)
+	private List<RubroArticulo> rubroarticuloHijos;
 
 	public Long getId() {
 		return id;
@@ -43,12 +52,24 @@ public class RubroArticulo {
 		this.denominacion = denominacion;
 	}
 
-	public RubroArticulo getRubroarticulo() {
-		return rubroarticulo;
+	public RubroArticulo getRubroarticuloPadre() {
+		return rubroarticuloPadre;
 	}
 
-	public void setRubroarticulo(RubroArticulo rubroarticulo) {
-		this.rubroarticulo = rubroarticulo;
+	public void setRubroarticuloPadre(RubroArticulo rubroarticuloPadre) {
+		this.rubroarticuloPadre = rubroarticuloPadre;
 	}
+
+	public List<RubroArticulo> getRubroarticuloHijos() {
+		return rubroarticuloHijos;
+	}
+
+	public void setRubroarticuloHijos(List<RubroArticulo> rubroarticuloHijos) {
+		this.rubroarticuloHijos = rubroarticuloHijos;
+	}
+
+	
+
+	
 	
 }
