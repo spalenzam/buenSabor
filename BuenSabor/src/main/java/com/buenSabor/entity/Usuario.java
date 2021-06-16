@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
@@ -20,6 +21,7 @@ public class Usuario {
 	private Long id;
 	
 	@NotEmpty
+	@Email
 	@Column(name = "usuario")
 	private String usuario;
 	
