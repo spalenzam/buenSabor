@@ -28,6 +28,7 @@ public class Cliente {
 	private Long telefono;
 	
 	@Column(name="email")
+	
 	private String email;
 	
 	@OneToOne(cascade = CascadeType.ALL)
@@ -74,6 +75,14 @@ public class Cliente {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public Domicilio getDomicilio() {
+		return domicilio;
+	}
+
+	public void setDomicilio(Domicilio domicilio) {
+		this.domicilio = domicilio;
 	}
 		
 	

@@ -40,5 +40,13 @@ public class RubroArticulo {
 	public void setDenominacion(String denominacion) {
 		this.denominacion = denominacion;
 	}
+
+	public RubroArticulo getRubroarticulo() {
+		return rubroarticulo;
+	}
+
+	public void setRubroarticulo(RubroArticulo rubroarticulo) {
+		this.rubroarticulo = rubroarticulo;
+	}
 	
 }

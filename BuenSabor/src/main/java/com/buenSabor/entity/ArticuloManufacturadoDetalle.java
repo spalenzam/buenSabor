@@ -3,12 +3,15 @@ package com.buenSabor.entity;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table
@@ -27,6 +30,11 @@ public class ArticuloManufacturadoDetalle {
 	@ManyToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "fk_articulo_insumo")
 	private ArticuloInsumo articuloinsumo;
+	
+	@JsonIgnoreProperties(value = {"articulomanufacturadodetalle"})
+	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
+	@JoinColumn(name = "fk_articulo_manufacturado")
+	private ArticuloManufacturado articulomanufacturado;
 
 	public Long getId() {
 		return id;
@@ -51,6 +59,34 @@ public class ArticuloManufacturadoDetalle {
 	public void setUnidadMedida(String unidadMedida) {
 		this.unidadMedida = unidadMedida;
 	}
-	
+
+	public ArticuloInsumo getArticuloinsumo() {
+		return articuloinsumo;
+	}
+
+	public void setArticuloinsumo(ArticuloInsumo articuloinsumo) {
+		this.articuloinsumo = articuloinsumo;
+	}
+
+	public ArticuloManufacturado getArticulomanufacturado() {
+		return articulomanufacturado;
+	}
+
+	public void setArticulomanufacturado(ArticuloManufacturado articulomanufacturado) {
+		this.articulomanufacturado = articulomanufacturado;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(this == obj) {
+			return true;
+		}
+		if(!(obj instanceof ArticuloManufacturado)) {
+			return false;
+		}
+		
+		ArticuloManufacturado a = (ArticuloManufacturado) obj;
+		return this.id != null && this.id.equals(a.getId());
+	}
 	
 }

@@ -47,4 +47,14 @@ public class Configuracion {
 	public void setTokenMercadoPago(String tokenMercadoPago) {
 		this.tokenMercadoPago = tokenMercadoPago;
 	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	
 }

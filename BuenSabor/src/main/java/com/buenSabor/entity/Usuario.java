@@ -65,6 +65,14 @@ public class Usuario {
 		this.rol = rol;
 	}
 
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
 	
 	
 	

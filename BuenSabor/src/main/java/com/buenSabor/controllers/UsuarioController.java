@@ -28,7 +28,6 @@ public class UsuarioController extends CommonController<Usuario, UsuarioService>
 		//Una vez que encontramos el id reemplazamos el Usuario
 		Usuario usuarioDB = o.get();
 		usuarioDB.setClave(usuario.getClave()); //se modifica la contraseña
-		usuarioDB.setUsuario(usuario.getUsuario()); //el usuario se modifica?
 		
 		return ResponseEntity.status(HttpStatus.CREATED).body(service.save(usuarioDB));
 	}

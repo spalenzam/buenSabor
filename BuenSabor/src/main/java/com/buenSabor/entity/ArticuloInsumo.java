@@ -107,4 +107,12 @@ public class ArticuloInsumo {
 		this.esInsumo = esInsumo;
 	}
 
+	public RubroArticulo getRubroarticulo() {
+		return rubroarticulo;
+	}
+
+	public void setRubroarticulo(RubroArticulo rubroarticulo) {
+		this.rubroarticulo = rubroarticulo;
+	}
+
 }
