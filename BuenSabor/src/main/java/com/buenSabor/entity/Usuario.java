@@ -9,6 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="usuario")
@@ -18,12 +19,15 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	@Column(name = "usuario")
 	private String usuario;
 	
+	@NotEmpty
 	@Column(name = "clave")
 	private String clave;
 	
+	@NotEmpty
 	@Column(name = "rol")
 	private String rol;
 

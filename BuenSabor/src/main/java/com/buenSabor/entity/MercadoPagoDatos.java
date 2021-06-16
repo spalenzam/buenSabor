@@ -11,6 +11,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="mercado_pago_datos")
@@ -20,26 +21,33 @@ public class MercadoPagoDatos {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long identificadorPago;
 	
-	@Column(name= "fecha_creacion")
-	private Date fechaCreacion;
+	@NotEmpty
 	@Column(name= "fecha_aprobacion")
 	private Date fechaAprobacion;
+	
+	@NotEmpty
 	@Column(name= "forma_pago")
 	private String formaPago;
+	
+	@NotEmpty
 	@Column(name= "metodo_pago")
 	private String metodoPago;
+	
+	@NotEmpty
 	@Column(name= "nro_tarjeta")
 	private String nroTarjeta;
+	
+	@NotEmpty
 	@Column(name= "estado")
 	private String estado;
 	
-	@Column(name="created_at") //
+	@Column(name="fecha_reacion") //
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date createdAt;
+	private Date fechaCreacion;
 	//Método que antes de persistir en la DB, asígna la fecha
 	@PrePersist
 	public void prePersist() {
-		this.createdAt = new Date();
+		this.fechaCreacion = new Date();
 	}
 
 	//Getter and Setter

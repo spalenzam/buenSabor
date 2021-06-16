@@ -18,6 +18,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotEmpty;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -29,12 +30,19 @@ public class Factura {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	@Column(name= "fecha_factura")
 	private Date fechaFactura;
+	
+	@NotEmpty
 	@Column(name= "numero_factura")
 	private int numeroFactura;
+	
+	@NotEmpty
 	@Column(name= "monto_descuento")
-	private int montoDescuento;          //ESTO ES INT?
+	private int montoDescuento;  //ESTO ES INT?
+	
+	@NotEmpty
 	@Column(name= "nro_tarjeta")
 	private Long nroTarjeta;
 	

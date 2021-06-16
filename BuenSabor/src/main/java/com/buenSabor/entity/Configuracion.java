@@ -3,6 +3,8 @@ package com.buenSabor.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -15,9 +17,12 @@ public class Configuracion {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	@Column(name = "cantidad_cocineros")
 	private int cantidadCocineros;
 	
+	@NotEmpty
+	@Email
 	@Column(name = "email_empresa")
 	private String emailEmpresa;
 	

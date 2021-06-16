@@ -15,6 +15,7 @@ import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -27,17 +28,21 @@ public class ArticuloManufacturado {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	@Column(name="tiempoEstimadoCocina")
 	private int tiempoEstimadoCocina;
 	
+	@NotEmpty
 	@Column(name = "denominacion")
 	private String denominación;
 	
+	@NotEmpty
 	@Column(name = "precioVenta")
 	private double precioVenta;
 	
 	//VER EL TIPO DE DATO DE IMAGEN MAGNI PONE STRING
 	//LOB campo de objeto pesado 
+	@NotEmpty
 	@Lob
 	@JsonIgnore
 	private byte [] imagen;

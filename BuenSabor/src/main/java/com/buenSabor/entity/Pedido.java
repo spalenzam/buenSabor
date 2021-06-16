@@ -20,6 +20,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotEmpty;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -31,12 +32,19 @@ public class Pedido {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)//Autoincremental
 	private Long id;
 	
+	@NotEmpty
 	@Column(name= "numero_pedido")
 	private int numeroPedido;
+	
+	@NotEmpty
 	@Column(name= "fecha_pedido")
 	private Date fechaPedido;
+	
+	@NotEmpty
 	@Column(name= "hora_estimada_fin_pedido")
 	private Time horaEstimadaFinPedido;         //REVISAR ESTO O LOCALTIME
+	
+	@NotEmpty
 	@Column(name= "tipo_envio_pedido")
 	private String tipoEnvioPedido;
 	

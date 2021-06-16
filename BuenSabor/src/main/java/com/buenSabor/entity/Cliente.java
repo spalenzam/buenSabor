@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="cliente")
@@ -18,17 +20,21 @@ public class Cliente {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	@Column(name="nombre")
 	private String nombre;
 	
+	@NotEmpty
 	@Column(name="apellido")
 	private String apellido;
 	
+	@NotEmpty
 	@Column(name="telefono")
 	private Long telefono;
 	
 	@Column(name="email")
-	
+	@NotEmpty
+	@Email
 	private String email;
 	
 	@OneToOne(cascade = CascadeType.ALL)

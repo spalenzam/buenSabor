@@ -6,6 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="domicilio")
@@ -15,12 +16,15 @@ public class Domicilio {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@NotEmpty
 	@Column(name = "calle")
 	private String calle;
 	
+	@NotEmpty
 	@Column(name = "numero")
 	private int numero;
 	
+	@NotEmpty
 	@Column(name = "localidad")
 	private String localidad;
 
