@@ -11,6 +11,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
@@ -21,7 +22,7 @@ public class MercadoPagoDatos {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long identificadorPago;
 	
-	@NotEmpty
+	@FutureOrPresent
 	@Column(name= "fecha_aprobacion")
 	private Date fechaAprobacion;
 	

@@ -18,7 +18,11 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.FutureOrPresent;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.CreditCardNumber;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -30,19 +34,21 @@ public class Factura {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty
+	@FutureOrPresent
 	@Column(name= "fecha_factura")
 	private Date fechaFactura;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name= "numero_factura")
 	private int numeroFactura;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name= "monto_descuento")
 	private int montoDescuento;  //ESTO ES INT?
 	
-	@NotEmpty
+	@CreditCardNumber
 	@Column(name= "nro_tarjeta")
 	private Long nroTarjeta;
 	
