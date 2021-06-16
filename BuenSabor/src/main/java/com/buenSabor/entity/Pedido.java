@@ -20,6 +20,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
@@ -39,11 +40,12 @@ public class Pedido {
 	@Column(name= "numero_pedido")
 	private int numeroPedido;
 
+	@FutureOrPresent
 	@Column(name= "fecha_pedido")
 	private Date fechaPedido;
 
 	@Column(name= "hora_estimada_fin_pedido")
-	private Time horaEstimadaFinPedido;         //REVISAR ESTO O LOCALTIME
+	private Time horaEstimadaFinPedido;        
 	
 	@NotEmpty
 	@Column(name= "tipo_envio_pedido")

@@ -10,7 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
-import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -22,11 +23,13 @@ public class DetallePedido {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "cantidad")
 	private int cantidad;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "subtotal")
 	private double subtotal;
 	

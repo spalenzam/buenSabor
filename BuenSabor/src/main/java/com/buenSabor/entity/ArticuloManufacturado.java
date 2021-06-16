@@ -15,7 +15,9 @@ import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -28,7 +30,8 @@ public class ArticuloManufacturado {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name="tiempoEstimadoCocina")
 	private int tiempoEstimadoCocina;
 	
@@ -36,7 +39,8 @@ public class ArticuloManufacturado {
 	@Column(name = "denominacion")
 	private String denominación;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "precioVenta")
 	private double precioVenta;
 	

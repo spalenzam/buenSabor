@@ -9,7 +9,9 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "articulo_insumo")
@@ -23,19 +25,23 @@ public class ArticuloInsumo {
 	@Column(name = "denominacion")
 	private String denominación;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "precio_compra")
 	private double precioCompra;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "precio_venta")
 	private double precioVenta;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "stock_actul")
 	private double stockActual;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "stock_minimo")
 	private double stockMinimo; 
 	

@@ -4,7 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,7 +19,8 @@ public class Configuracion {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@NotEmpty
+	@Min(1)
+	@NotNull
 	@Column(name = "cantidad_cocineros")
 	private int cantidadCocineros;
 	
@@ -26,6 +29,7 @@ public class Configuracion {
 	@Column(name = "email_empresa")
 	private String emailEmpresa;
 	
+	@NotEmpty
 	@Column(name = "token_mercado_pago")
 	private String tokenMercadoPago;
 
