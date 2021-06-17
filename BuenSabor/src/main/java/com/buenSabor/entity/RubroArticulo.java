@@ -36,6 +36,10 @@ public class RubroArticulo {
 	@JsonIgnoreProperties(value= {"rubroarticuloPadre"})
 	@OneToMany(fetch = FetchType.LAZY, mappedBy ="rubroarticuloPadre", cascade = CascadeType.ALL)
 	private List<RubroArticulo> rubroarticuloHijos;
+	
+	public RubroArticulo() {
+		this.rubroarticuloHijos = new ArrayList<>();
+	}
 
 	public RubroArticulo() {
         this.rubroarticuloHijos = new ArrayList<>();

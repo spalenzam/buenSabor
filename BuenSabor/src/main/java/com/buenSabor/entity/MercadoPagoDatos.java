@@ -42,7 +42,7 @@ public class MercadoPagoDatos {
 	@Column(name= "estado")
 	private String estado;
 	
-	@Column(name="fecha_reacion") //
+	@Column(name="fecha_creacion") 
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date fechaCreacion;
 	//Método que antes de persistir en la DB, asígna la fecha
