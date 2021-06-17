@@ -48,9 +48,18 @@ public class Factura {
 	@Column(name= "monto_descuento")
 	private int montoDescuento;  //ESTO ES INT?
 	
+	@Column(name= "forma_pago")
+	private String formaPago;		
+	
 	@CreditCardNumber
 	@Column(name= "nro_tarjeta")
 	private Long nroTarjeta;
+	
+	@Column(name= "total_venta")
+	private Double totalVenta;
+	
+	@Column(name= "total_costo")
+	private Double totalCosto;
 	
 	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "fk_pedido")
@@ -118,6 +127,31 @@ public class Factura {
 	public void setPedido(Pedido pedido) {
 		this.pedido = pedido;
 	}
+	
+	public String getFormaPago() {
+		return formaPago;
+	}
+
+	public void setFormaPago(String formaPago) {
+		this.formaPago = formaPago;
+	}
+
+	public Double getTotalVenta() {
+		return totalVenta;
+	}
+
+	public void setTotalVenta(Double totalVenta) {
+		this.totalVenta = totalVenta;
+	}
+
+	public Double getTotalCosto() {
+		return totalCosto;
+	}
+
+	public void setTotalCosto(Double totalCosto) {
+		this.totalCosto = totalCosto;
+	}
+
 	public List<DetalleFactura> getDetallefacturas() {
 		return detallefacturas;
 	}

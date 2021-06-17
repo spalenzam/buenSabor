@@ -27,7 +27,7 @@ public class ArticuloManufacturadoDetalle {
 	@Min(1)
 	@NotNull
 	@Column(name = "cantidad")
-	private double cantidad;
+	private float cantidad;
 	
 	@NotEmpty
 	@Column(name = "unidad_medida")
@@ -50,11 +50,11 @@ public class ArticuloManufacturadoDetalle {
 		this.id = id;
 	}
 
-	public double getCantidad() {
+	public float getCantidad() {
 		return cantidad;
 	}
 
-	public void setCantidad(double cantidad) {
+	public void setCantidad(float cantidad) {
 		this.cantidad = cantidad;
 	}
 
