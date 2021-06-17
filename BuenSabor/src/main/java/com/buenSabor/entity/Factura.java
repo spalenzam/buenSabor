@@ -43,8 +43,8 @@ public class Factura {
 	@Column(name= "numero_factura")
 	private int numeroFactura;
 	
-	@Min(1)
-	@NotNull
+	//@Min(0)
+	//@NotNull
 	@Column(name= "monto_descuento")
 	private int montoDescuento;  //ESTO ES INT?
 	
