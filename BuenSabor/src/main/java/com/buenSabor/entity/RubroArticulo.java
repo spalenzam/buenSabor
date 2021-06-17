@@ -40,10 +40,6 @@ public class RubroArticulo {
 	public RubroArticulo() {
 		this.rubroarticuloHijos = new ArrayList<>();
 	}
-
-	public RubroArticulo() {
-        this.rubroarticuloHijos = new ArrayList<>();
-    }
 	
 	public Long getId() {
 		return id;
