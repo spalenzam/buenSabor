@@ -19,8 +19,6 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.validation.constraints.FutureOrPresent;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.CreditCardNumber;
 
@@ -38,13 +36,11 @@ public class Factura {
 	@Column(name= "fecha_factura")
 	private Date fechaFactura;
 	
-	@Min(1)
-	@NotNull
+	//@Min(1)
+	//@NotNull
 	@Column(name= "numero_factura")
 	private int numeroFactura;
 	
-	//@Min(0)
-	//@NotNull
 	@Column(name= "monto_descuento")
 	private int montoDescuento;  //ESTO ES INT?
 	
