@@ -40,7 +40,7 @@ public class RubroArticulo {
 	public RubroArticulo() {
 		this.rubroarticuloHijos = new ArrayList<>();
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
@@ -73,8 +73,4 @@ public class RubroArticulo {
 		this.rubroarticuloHijos = rubroarticuloHijos;
 	}
 
-	
-
-	
-	
 }
