@@ -1,5 +1,6 @@
 package com.buenSabor.entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -36,6 +37,10 @@ public class RubroArticulo {
 	@OneToMany(fetch = FetchType.LAZY, mappedBy ="rubroarticuloPadre", cascade = CascadeType.ALL)
 	private List<RubroArticulo> rubroarticuloHijos;
 
+	public RubroArticulo() {
+        this.rubroarticuloHijos = new ArrayList<>();
+    }
+	
 	public Long getId() {
 		return id;
 	}
