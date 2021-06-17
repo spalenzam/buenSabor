@@ -73,8 +73,4 @@ public class RubroArticulo {
 		this.rubroarticuloHijos = rubroarticuloHijos;
 	}
 
-	
-
-	
-	
 }
